@@ -1,0 +1,36 @@
+{
+  "name": "npm-dustman",
+  "version": "1.0.0",
+  "description": "Encontra e remove pastas node_modules recursivamente para liberar espaço em disco (Unix).",
+  "main": "src/index.js",
+  "bin": {
+    "npmdm": "bin/npmdm.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "node_modules",
+    "clean",
+    "cleanup",
+    "disk",
+    "space",
+    "cli"
+  ],
+  "os": [
+    "linux",
+    "darwin",
+    "freebsd",
+    "openbsd",
+    "sunos",
+    "aix"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
